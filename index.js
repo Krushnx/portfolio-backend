@@ -9,7 +9,7 @@ const app = express();
 
 const db=mongoose.connection;
 const corsOptions ={
-    origin:['http://localhost:3000' , 'https://krushna-porfolio.web.app/', 'https://eticket-connect.web.app'], 
+    origin:['http://localhost:3000' , 'https://krushna-porfolio.web.app', 'https://eticket-connect.web.app'], 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
